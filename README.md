@@ -3,7 +3,7 @@
 
 `data.csv`: Not raw data. Encrypted from the decryption from raw data (Source: Trust me bro) (Need decryption file).
 
-`data.json`: Processed, "beatified" version of `data.csv`. This file is easier to do analysis and code.
+`data.json`: Processed, "beautified" version of `data.csv`. This file is easier to do analysis and code.
 
 `extractor.py`: Turn `data.csv` to `data.json` (DO NOT TOUCH).
 
