@@ -19,7 +19,7 @@ maths_score.sort()
 print(f'AM: {statistics.mean(maths_score)}')
 print(f'GM: {statistics.geometric_mean(maths_score)}')
 print(f'HM: {statistics.harmonic_mean(maths_score)}')
-print(f'Median: {statistics.quantiles(maths_score)[0]}')
+print(f'Median: {statistics.quantiles(maths_score)[1]}')
 print(f'Quartiles: {statistics.quantiles(maths_score)[0]}, {statistics.quantiles(maths_score)[1]}, {statistics.quantiles(maths_score)[2]}')
 print(f'Mode: {statistics.mode(another_maths_score)}')
 
